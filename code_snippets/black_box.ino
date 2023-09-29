@@ -62,6 +62,7 @@ void sendAudioSerial(void) {
 }
 
 // ...
+// NOTE: similar implementation for sendGeophone()
 
 void setup(void) {
   ...
@@ -69,6 +70,6 @@ void setup(void) {
   // comment all wifi and udp setup
 }
 
-void main(void) {
+void loop(void) {
   sendAudioSerial();
 }
